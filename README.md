@@ -4,7 +4,7 @@
 Recursively Remove .DS_Store
 - Open up Terminal
 - In the command line, cd to/your/directory
-- Finally, in the command line, type: find . -name '.DS_Store' -type f -delete. Press enter.
+- Finally, in the command line, type: `find . -name '.DS_Store' -type f -delete`. Press enter.
 
 STEP 1: GET KAFKA
 Download the latest Kafka release and extract it:
