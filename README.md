@@ -15,7 +15,12 @@ $ cd kafka_2.13-3.6.1
 ```
 
 # Start the ZooKeeper service
-$ bin/zookeeper-server-start.sh config/zookeeper.properties
+
+```
+bin/zookeeper-server-start.sh config/zookeeper.properties
+```
 
 # Start the Kafka broker service
-$ bin/kafka-server-start.sh config/server.properties
+```
+bin/kafka-server-start.sh config/server.properties
+```
