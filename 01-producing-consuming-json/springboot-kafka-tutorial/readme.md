@@ -1,6 +1,16 @@
 #
 
-http://localhost:8080/api/v1/kafka/publish?message=hello%20world
+# Request
+```json
+curl --location 'http://localhost:8080/api/v1/kafka/publish' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@gmail.com"
+}'
+```
 
 ```logs
 2024-01-15 17:52:23.206  INFO 17355 --- [ntainer#0-0-C-1] n.j.springboot.kafka.JsonKafkaConsumer   : Json message received -> User(id=0, firstName=null, lastName=null, email=null)
